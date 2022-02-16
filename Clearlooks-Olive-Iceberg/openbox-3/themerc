@@ -1,0 +1,126 @@
+# Name: Clearlooks-Olive
+# Author: John McKnight <jmcknight@gmail.com>
+# Note: This is a port of the Clearlooks-Olive metacity theme to Openbox.
+
+# Menu settings
+menu.title.bg: Raised Gradient Vertical
+menu.title.bg.color: #5A5E70
+menu.title.bg.colorTo: #5A5E70
+menu.title.text.color: #ffffff
+menu.title.text.justify: Left
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #33374c
+menu.items.text.color: #e8e9ec
+menu.items.disabled.text.color: #aaaaaa
+menu.items.active.disabled.text.color: #e8e9ec
+
+menu.items.active.bg: Flat Gradient Vertical Border
+menu.items.active.bg.color: #8389a3
+menu.items.active.bg.colorTo: #767C94
+menu.items.active.bg.border.color: #92aa6d
+menu.items.active.text.color: #ffffff
+
+menu.separator.width: 1
+menu.separator.color: #000000
+menu.separator.padding.width: 0
+menu.separator.padding.height: 0
+
+# Window title justification
+window.label.text.justify: Right
+
+# Window settings (focused)
+window.active.title.bg: Raised Gradient Vertical
+window.active.title.bg.color: #5A5E70
+window.active.title.bg.colorTo: #5A5E70
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #d2d4de
+
+window.active.handle.bg: Raised Gradient Vertical
+window.active.handle.bg.color: #8389a3
+window.active.handle.bg.colorTo: #767C94
+
+window.active.grip.bg: Raised Gradient Vertical
+window.active.grip.bg.color: #8389a3
+window.active.grip.bg.colorTo: #767C94
+
+window.active.button.unpressed.bg: Flat Gradient Vertical Border
+window.active.button.unpressed.bg.color: #1F222E
+window.active.button.unpressed.bg.colorTo: #161821
+window.active.button.unpressed.bg.border.color: #d2d4de
+window.active.button.unpressed.image.color: #d2d4de
+
+window.active.button.pressed.bg: Flat Gradient Vertical Border
+window.active.button.pressed.bg.color: #373d2b
+window.active.button.pressed.bg.colorTo: #333828
+window.active.button.pressed.bg.border.color: #A5A6AD
+window.active.button.pressed.image.color: #A5A6AD
+
+window.active.button.disabled.bg: Flat Gradient Vertical Border
+window.active.button.disabled.bg.color: #262a3f
+window.active.button.disabled.bg.colorTo: #262a3f
+window.active.button.disabled.bg.border.color: #AEB0B8
+window.active.button.disabled.image.color: #AEB0B8
+
+window.active.button.toggled.bg: Flat Gradient Vertical Border
+window.active.button.toggled.bg.color: #262a3f
+window.active.button.toggled.bg.colorTo: #262a3f
+window.active.button.toggled.bg.border.color: #AEB0B8
+window.active.button.toggled.image.color: #AEB0B8
+
+
+# Window settings (unfocused)
+window.inactive.title.bg: Raised Gradient Vertical
+window.inactive.title.bg.color: #161821
+window.inactive.title.bg.colorTo: #161821
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #8F95B3
+
+window.inactive.handle.bg: Raised Gradient Vertical
+window.inactive.handle.bg.color: #202330
+window.inactive.handle.bg.colorTo: #161821
+
+window.inactive.grip.bg: Raised Gradient Vertical
+window.inactive.grip.bg.color: #202330
+window.inactive.grip.bg.colorTo: #161821
+
+window.inactive.button.unpressed.bg: Flat Gradient Vertical Border
+window.inactive.button.unpressed.bg.color: #202330
+window.inactive.button.unpressed.bg.colorTo: #161821
+window.inactive.button.unpressed.bg.border.color: #8F95B3
+window.inactive.button.unpressed.image.color: #8F95B3
+
+window.inactive.button.pressed.bg: Flat Gradient Vertical Border
+window.inactive.button.pressed.bg.color: #202330
+window.inactive.button.pressed.bg.colorTo: #161821
+window.inactive.button.pressed.bg.border.color: #8F95B3
+window.inactive.button.pressed.image.color: #8F95B3
+
+window.inactive.button.disabled.bg: Flat Gradient Vertical Border
+window.inactive.button.disabled.bg.color: #202330
+window.inactive.button.disabled.bg.colorTo: #161821
+window.inactive.button.disabled.bg.border.color: #8F95B3
+window.inactive.button.disabled.image.color: #8F95B3
+
+window.inactive.button.toggled.bg: Flat Gradient Vertical Border
+window.inactive.button.toggled.bg.color: #8389a3
+window.inactive.button.toggled.bg.colorTo: #767C94
+window.inactive.button.toggled.bg.border.color: #565A6B
+window.inactive.button.toggled.image.color: #000000
+
+### Everything else
+border.width: 1
+padding.width: 2
+window.handle.width: 3
+window.client.padding.width: 0
+window.client.padding.height: 0
+border.color: #000000
+menu.overlap: 0
+
+### Fonts
+window.active.label.text.font:shadow=y:shadowtint=70:shadowoffset=1
+window.inactive.label.text.font:shadow=y:shadowtint=20:shadowoffset=1
+menu.items.font:
+menu.title.text.font:shadow=y:shadowtint=70
